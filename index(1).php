@@ -8,10 +8,12 @@ $groups=[
 ];
 
 $max=0;
+$maxIndex=-1;
 foreach ($groups as $groupNumber=> $value){
 	if($max<$value){
 		$max=$value;
+		$maxIndex=$groupNumber;
 	}
 }
-echo "Максимальный средний балл: $max";
+echo '<p>Максимальный средний балл '.$max.' у группы '.$maxIndex.'</p>';
 ?>
