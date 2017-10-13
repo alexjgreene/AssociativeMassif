@@ -13,5 +13,5 @@ foreach ($groups as $groupNumber=> $value){
 		$max=$value;
 	}
 }
-echo '<p> Максимальный средний балл: '.$max.'</p>';
+echo "Максимальный средний балл: $max";
 ?>
